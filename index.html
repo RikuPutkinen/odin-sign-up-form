@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin Sign-up Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="left">
+    <div class="bg-image">
+      <div class="logo-bg">
+        <div class="logo-content">
+          <div class="logo-img">
+          <div class="logo-text">
+            LOGO
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="description">
+      <div class="text-container">
+        <h1>This is a practice project</h1>
+        <p>This site is a project meant to demonstrate my HTML form skills.</p>
+      </div>
+    </div>
+    <div class="form-area">
+      <h2>Sign up</h2>
+      <p>required fields marked with *</p>
+      <form id="info" method="post">
+        <div><label for="first-name">First name *</label><input id="first-name" type="text" required></div>
+        <div><label for="last-name">Last name *</label><input id="last-name" type="text" required></div>
+        <div><label for="email">Email</label><input id="email" type="email"></div>
+        <div><label for="phone">Phone number</label><input id="phone" type="tel"></div>
+        <div><label for="passwd">Password *</label><input id="passwd" type="password" required></div>
+        <div><label for="passwd-confirm">Confirm Password *</label><input id="passwd-confirm" type="password" required></div>
+      </form>
+    </div>
+    
+    <div class="bottom">
+      <button form="info" type="submit">Create Account</button>
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
+  </div>
+</body>
+</html>
